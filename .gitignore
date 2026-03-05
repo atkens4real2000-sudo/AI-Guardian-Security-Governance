@@ -1,0 +1,6 @@
+guardian_reports/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+red_team_session.json

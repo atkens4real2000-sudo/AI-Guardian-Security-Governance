@@ -1,0 +1,12 @@
+# AI Guardian - AI Security & Governance Assessment Toolkit
+# Author: Akintade Akinokun
+#
+# Core: Python 3.8+ standard library only (json, os, re, uuid, datetime, abc, dataclasses, logging)
+#
+# Optional for live LLM testing:
+requests>=2.28.0           # HTTP requests for API connectors
+openai>=1.0.0              # OpenAI API connector (optional - falls back to requests)
+anthropic>=0.18.0          # Anthropic API connector (optional - falls back to requests)
+#
+# Note: The documentation audit mode (--docs) requires NO external dependencies.
+# Only install the above if you plan to use --live or --agent modes.
